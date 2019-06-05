@@ -1,0 +1,261 @@
+html {
+	font-family: sans-serif;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	-webkit-tap-highlight-color: rgba(82, 0, 0, 0);
+}
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: rgb(255, 255, 255);
+	margin: 0;
+}
+
+p {
+	margin: 0;
+}
+
+a {
+	background: transparent;
+	text-decoration: none;
+	color: #ffffff;
+	cursor: pointer;
+}
+
+ul {
+	list-style: none;
+}
+
+.activo {
+	background: #1469aa;
+}
+
+
+.nav a {
+	padding: 15px 12px 11px;
+	color: rgb(255, 255, 255);
+	float: left;
+}
+
+.nav.activo,
+.nav.activo:focus,
+.nav.activo:hover {
+	border-right: 1px solid #353e4a;
+	color: rgb(122, 14, 14);
+	background: #1469aa;
+}
+
+.nav a:hover {
+	text-decoration: none;
+}
+
+.nav:hover {
+	color: rgb(255, 0, 0);
+	background: #1469aa;
+}
+
+.nav.header {
+    background: #353e4a !important;
+    height: auto;
+    padding: 10px 15px;
+}
+.nav.header a {
+    float: left;
+    padding: 0;
+    width: 185px;
+}
+.nav.header a.close {
+    width: 22px !important;
+    padding: 0;
+    float: right;
+}
+.nav.header:hover {
+    background: #353e4a !important;
+    height: auto;
+    padding: 10px 15px;
+}
+
+.container {
+	margin: 0 auto;
+    padding: 0 15px;
+    width: 1170px;
+}
+
+.container:after {
+	clear: both;
+}
+
+.m_list,
+.nav {
+	height: 47px;
+	padding: 0;
+    float: left;
+    background: #454a5a;
+}
+
+.menu_right {
+	float: right
+}
+
+.menu_right ul {
+	padding: 0;
+	text-align: right;
+	float: left;
+	width: 100%;
+}
+
+.menu_right ul {
+	display: none
+}
+    
+.m_list {
+	margin: 0;
+	width: 100%;
+}
+
+.registrate{
+    background: #f65524;
+}
+
+.area_p{
+	padding: 0;
+}
+
+.c_mbl {
+	display: none;
+}
+
+.logo{
+    margin: 0 auto;
+    padding: 0 ;
+    width: 1170px;
+    clear: both;
+    position: relative;
+    right: 0;
+    height: 100px;
+    border: 0px solid ;
+    background: rgb(226, 226, 226);
+}
+
+.logo img{
+    position: relative;
+    padding: 0;
+    margin: 0;
+    width: 25%;
+    height: 100%;
+}
+
+.img_logo{
+    margin: 0;
+    padding: 0 ;
+    position: relative;
+    width: 150px;
+    float: left;
+    height: 100px;
+    background-image: url("../images/imagen.png");
+    background-repeat: no-repeat;
+}
+
+.formulario{
+    margin: 0 auto;
+    padding: 0 ;
+    width: 1170px;
+    clear: both;
+    position: relative;
+    right: 0;
+    height: 790px;
+    border: 0px solid ;
+}
+
+.formulario form{
+    width: 25%;
+    border: 1px solid rgb(255, 255, 255);
+    background: #ffffff;
+    margin: 5%;
+    padding: 2%;
+    float: left;
+}
+
+label{
+    font-size: 12px;
+    display: block;
+    width: 100%;
+}
+
+textarea {
+    resize: none;
+    width: 20%;
+    height: 20%;
+}
+
+input , textarea {
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+input:focus {
+    border-color: rgb(56, 132, 255);
+}
+
+input[type="submit"]{
+    margin-bottom: 0;
+    background: #ff4b15;
+    color:#ffffff;
+    border: none;
+}
+
+input[type="submit"]:hover{
+    background: #ff8411;
+    cursor: pointer;
+}
+
+.div_registro_candidato{
+    background: rgb(56, 132, 255,0.7);
+    margin: 0;
+    padding: 0 ;
+    position: relative;
+    width: 1169px;
+    float: left;
+    height: 450px;
+    border-radius: 2%;
+}
+
+.texto_formulario{
+    margin: 5%;
+    margin-right: 20%;
+    padding: 0 ;
+    position: relative;
+    float: right; 
+}
+
+.mensaje_copyright{
+    margin: 0 auto;
+    padding: 0 ;
+    width: 1170px;
+    clear: both;
+    position: relative;
+    right: 0;
+    height: 50px;
+    border: 0px solid ;
+    background: #efefef;
+}
+.mensaje_copyright h2{
+    text-align: center;
+    color: #000000;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+  }
+
+

@@ -1,0 +1,7 @@
+/*Cambiar color de fondo  a jumbotron*/
+.jumbotron{
+    background-color: #99cc00;
+     font: small-caps 100%/200% serif;
+    /*Cambiar color de letra*/
+    color: white;
+}
