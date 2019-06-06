@@ -102,12 +102,12 @@ $musculo="";
 
  $resultado = exec('swipl -s sistemaExpertoMuscular.pl -g "'.$query.'" -t halt.');
 
-$formato= str_replace("_", " ", $lastLine);
+$formato= str_replace("_", " ", $resultado);
 echo "<h2>Para trabajar el grupo muscular $musculo puedes realizar los siguientes ejercicios <br><br> $formato</h2>";
 
 
  }
-
+ 
 
 
   ?>

@@ -41,7 +41,7 @@
       <div class="jumbotron jumbotron-fluid">
   <div class="container">
     <form  action="tipoEntrenamiento.php" method="POST">
-    <h2 class="fondo display-4">Ingresa el n&uacute;mero de repeticiones que realizas</h2>
+    <h2 class="fondo display-4">Ingresa el n&uacute;mero de repeticiones que realizas </h2>
      <input type="text" class="form-control" aria-describedby="emailHelp" placeholder="Ejemplo: 5" name="txtRepeticion">
      
   <br><br>

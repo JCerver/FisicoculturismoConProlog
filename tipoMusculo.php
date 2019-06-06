@@ -45,7 +45,7 @@
      <input type="text" class="form-control" aria-describedby="emailHelp" placeholder="Ejemplo: press banca" name="txtEjercicio">
      
   <br><br>
-    <button type="submit" class="btn btn-success btn-lg btn-block" name="btnBuscar"><span class="glyphicon glyphicon-search"></span> Buscar</button>
+    <button type="submit" class="btn btn-success btn-lg btn-block" name="btnBuscar"><span class="glyphicon glyphicon-search"></span> Buscar </button>
   </form>
    
 </div>
@@ -79,7 +79,7 @@ $formato="";
 $ejercicio="";
 
  if(isset($_POST['btnBuscar'])){
-
+   
   $ejercicio=$_POST["txtEjercicio"];
   $formato= str_replace(" ", "_", $ejercicio);
 $query= 'ejercicio(X,'.$formato.'),write(X) ';

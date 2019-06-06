@@ -25,7 +25,7 @@ antagonista(bicep,tricep).
 antagonista(femoral,cuadricep).
 antagonista(gluteo,cuadricep).
 antagonista(cuadricep,femoral).
-
+antagonista(bicep,pecho).
 
 
 %Division de musculo
