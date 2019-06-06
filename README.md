@@ -49,10 +49,12 @@ Haga doble click en el instalador XAMPP para comenzar el proceso de instalación
 
 #### Paso 4.
 Aquí, puede seleccionar los componentes que quiere instalar. Elija la opción por defecto y haga click en ‘Next’.
+
 ![alt text](https://github.com/JCerver/FisicoculturismoConProlog/blob/master/imagenes/xam2.jpg "paso 4")	
 
 #### Paso 5.
 Elija la carpeta en la que quiere instalar XAMPP. Esta carpeta contendrá todos los ficheros de la aplicación web, así que asegúrese de seleccionar una unidad que tenga bastante espacio.
+
 ![alt text](https://github.com/JCerver/FisicoculturismoConProlog/blob/master/imagenes/xam3.jpg "paso 5")	
 
 
@@ -74,6 +76,7 @@ Para instalar git en Windows, primero tenemos que ir al sitio web de [git](https
 
 #### Paso 2. Configuración de parametros necesarios
 A partir de este punto todo lo vamos a dejar como esta (no movemos nada), simplemente damos click en siguiente, a menos que tengamos conocimientos sobre ello.
+
 ![alt text](https://github.com/JCerver/FisicoculturismoConProlog/blob/master/imagenes/imgit3.png "paso 2")	
 
 Ya que terminamos todo el proceso de instalación, tendremos el Git Bash, esto nos va a servir para ejecutar los comandos de git en Windows (Una especie de nuevo CMD).
@@ -166,6 +169,7 @@ Al abrir el panel de control, pulsamos sobre START en el servicio de Apache para
 
 ![alt text](https://github.com/JCerver/FisicoculturismoConProlog/blob/master/imagenes/xampp.JPG "paso 1")	
 
+***
 
 ### 3. Abrir la pagina de inicio en nuestro navegador web.
 Dentro de la carpeta en donde clonamos el proyecto se encuentra el archivo index.php, abrimos este archivo con algún navegador web que se tenga instalado en el equipo.
@@ -176,6 +180,7 @@ Nos debe mostrar la siguiente interfaz
 
 ![alt text](https://github.com/JCerver/FisicoculturismoConProlog/blob/master/imagenes/test1.JPG "paso 1")	
 
+***
 
 ### 4. Comenzar a realizar consultas
 Como se observó en el paso anterior, contamos una serie de categorías que nos ofrece el sitio web, cada categoría realiza una función diferente.
